@@ -33,6 +33,7 @@
   background-color: black;
   color: white;
 }
+
 /* header  */
 
 #logo,
@@ -55,8 +56,7 @@ nav {
   line-height: 80px;
   text-align: center;
 }
-.header-top {
-}
+
 #accedi {
   line-height: 80px;
   text-align: right;
@@ -132,6 +132,44 @@ section p {
   font-size: 25px;
 }
 
+#q-h,
+#q-p {
+  text-align: center;
+}
+
+#condivisione {
+  display: block;
+  margin: 0 auto;
+}
+
+#q-div {
+  font-size: 34px;
+  font-weight: 600;
+}
+
+#q-mac {
+  color: white;
+  font-weight: 500;
+  background-color: #255ee9;
+}
+
+.bt-cont {
+  position: relative;
+}
+
+#q-div,
+#q-mac {
+  text-align: center;
+}
+
+#q-mac {
+  border: 1px solid;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+
 /* btn  */
 
 .btn {
@@ -139,6 +177,7 @@ section p {
   display: inline-block;
   border-radius: 2em;
   padding: 20px 25px;
+  margin: 20px;
 }
 
 .cont-btn {
@@ -171,4 +210,18 @@ section p {
 
 .debug .mini-cont {
   border: 1px solid;
+}
+
+footer {
+  position: relative;
+}
+
+.prova {
+  height: 400px;
+  background-color: red;
+  border: 1px solid;
+}
+
+.debug .prova div {
+  background-color: ;
 }
