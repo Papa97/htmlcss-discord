@@ -35,8 +35,14 @@
   color: white;
 }
 
-.wave {
+.black a:visited {
+  color: white;
 }
+
+.white a:visited {
+  color: black;
+}
+
 /* header  */
 
 #logo,
@@ -124,6 +130,9 @@ nav {
   text-decoration: none;
 }
 /* main  */
+section {
+  position: inherit;
+}
 .mini-cont {
   width: 50%;
   margin-top: 150px;
@@ -143,6 +152,10 @@ section p {
   font-size: 25px;
 }
 
+/* #sec-sect {
+  background-color: #cfcfcf;
+} */
+
 #q-h,
 #q-p {
   text-align: center;
@@ -156,6 +169,13 @@ section p {
 #q-div {
   font-size: 34px;
   font-weight: 600;
+  background-image: url(../img/stars.svg);
+  background-size: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  line-height: 100px;
+  margin-top: 50px;
 }
 
 #q-mac {
@@ -270,3 +290,7 @@ footer ul li:first-child {
   height: 300px;
   border: 1 px solid;
 } */
+
+#q-sect {
+  background-color: #cfcfcf;
+}
